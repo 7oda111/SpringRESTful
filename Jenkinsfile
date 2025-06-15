@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage ("checkout") {
             steps{
-                 git branch :"main" , url :"https://github.com/Amr-tmorot/SpringRESTful/tree/main"
+                 git branch :"main" , url :"https://github.com/7oda111/SpringRESTful.git"
             }
            
         }
